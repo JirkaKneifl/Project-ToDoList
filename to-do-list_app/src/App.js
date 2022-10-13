@@ -1,5 +1,5 @@
 import './App.css';
-import Button from "./components/Button/Button.tsx";
+import ToDoAdder from "./components/ToDoAdder/ToDoAdder.tsx";
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
   return (
       <div className="App">
         <div>Hallo world</div>
-        <Button onClick={handleClick} label={"Clickme"}></Button>
+        <ToDoAdder onClick={handleClick} label="Add ToDo"></ToDoAdder>
       </div>
   )
 }
