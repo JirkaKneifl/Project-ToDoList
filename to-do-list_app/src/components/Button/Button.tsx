@@ -1,7 +1,7 @@
 import "./Button.css";
 
 type ButtonProps = {
-    onClick: () => void
+    onClick: any
     label: string
 }
 

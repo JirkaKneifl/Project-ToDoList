@@ -1,3 +1,8 @@
+.toDoAdder{
+    border: solid;
+    border-color: #555555;
+    border-radius: 3px;
+}
 .button{
     background-color: #EC994B;
     color: #F1EEE9;
@@ -17,5 +22,5 @@
     background-color: #EC994B;
 }
 .addForm{
-
+    color: #F1EEE9;
 }

@@ -1,17 +1,29 @@
 import './App.css';
-import ToDoAdder from "./components/ToDoAdder/ToDoAdder.tsx";
+import { Route ,Routes} from "react-router-dom";
+import About from "./pages/About.tsx";
+import Login from "./pages/Login.tsx";
+import Register from "./pages/Register.tsx";
+import Main from "./pages/Main.tsx"
 
 function App() {
 
-  const handleClick = () => {
+ /* const handleClick = () => {
     console.log("nothing happen just click")
-  }
+  }*/
 
-  return (
-      <div className="App">
+  return(
+    <Routes>
+        <Route path="/" element={<About />}/>
+        <Route path={"/login"} element={<Login />}/>
+        <Route path={"/register"} element={<Register />}/>
+        <Route path={"/main"} element={<Main />} />
+    </Routes>
+)
+
+      /*<div className="App">
         <div>Hallo world</div>
         <ToDoAdder onClick={handleClick} label="Add ToDo"></ToDoAdder>
-      </div>
-  )
+      </div>*/
+
 }
 export default App;

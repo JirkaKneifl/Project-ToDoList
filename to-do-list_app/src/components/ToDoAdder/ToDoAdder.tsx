@@ -1,20 +1,24 @@
 import "./ToDoAdder.css";
+import Button from "../Button/Button.tsx";
 
-type ToDoAdderProps = {
-    onClick: () => void
-    label: string
-    onSubmit: any
+const handleOnclick = {
+
+
 }
 
-function ToDoAdder(props: ToDoAdderProps){
-    return  <div>
-                <form className={"addForm"} action={props.onSubmit}>
+/*type toDoAdderProps = {
+
+}*/
+
+
+function ToDoAdder(){
+    return  <div className={"toDoAdder"}>
+                <form className={"addForm"} >
                     <div className="">
+                        <label>Add something you want to do...</label>
                         <input className="addInput" />
                     </div>
-                    <button className="button" onClick={props.onClick}>
-                        {props.label}
-                    </button>
+                    <Button onClick={handleOnclick} label={"Add ToDo"}></Button>
                 </form>
             </div>
 }
