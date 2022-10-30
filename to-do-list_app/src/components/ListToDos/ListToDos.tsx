@@ -2,6 +2,10 @@ import * as React from "react";
 import ToDo from "../ToDo/ToDo.tsx";
 
 function ListToDos() {
+    const listOfToDos = [];
+
+
+
     return (
         <>
             <ToDo toDoLabel={"udele mycku"}></ToDo>

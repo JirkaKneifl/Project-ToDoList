@@ -1,0 +1,27 @@
+.aboutNavBar{
+    padding: 5px;
+    margin: 5px;
+    font-family: Arial;
+}
+.navLink {
+    justify-content: flex-end;
+    display: flex;
+    font-family: Arial;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    color: blueviolet;
+}
+.navLink:hover {
+    color: #EC994B;
+}
+.headlineAbout{
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    padding: 5px;
+}
+

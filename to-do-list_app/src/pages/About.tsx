@@ -1,5 +1,12 @@
+import AboutNavBar from "../components/AboutNavBar/AboutNavBar.tsx";
+
+
 function About () {
-    return <h1>About</h1>
+    return (
+        <>
+            <AboutNavBar></AboutNavBar>
+        </>
+    )
 }
 
 export default About;
