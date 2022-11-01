@@ -1,12 +1,10 @@
 .aboutNavBar{
     padding: 5px;
     margin: 5px;
-    font-family: Arial;
 }
 .navLink {
     justify-content: flex-end;
     display: flex;
-    font-family: Arial;
     text-decoration: none;
     padding: 5px;
     margin: 5px;
@@ -17,7 +15,6 @@
     color: #EC994B;
 }
 .headlineAbout{
-    font-family: Arial;
     display: flex;
     justify-content: center;
     align-items: center;
