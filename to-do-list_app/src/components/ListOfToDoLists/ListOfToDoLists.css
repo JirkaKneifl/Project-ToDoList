@@ -1,0 +1,38 @@
+.listOfToDoListsPanel{
+    background-color: #F4F4F4;
+    width: 200px;
+    height: 500px;
+    border-radius: 4px;
+
+}
+.sidebarItem{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+.sidebarItem:hover{
+    color: #67AB47;
+    background-color: #eaeaea;
+}
+hr{
+    width: 80%;
+    height: 1px;
+    color: #D6D6D6;
+    background-color: #D6D6D6;
+}
+.addButton{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    color: #9B9B9B;
+    font-size: 24px;
+}
+.addButton:hover{
+    background-color: #eaeaea;
+}
+.addButtonIcon{
+    font-size: 24px;
+    margin-right: 4px;
+}

@@ -1,4 +1,3 @@
-import * as React from "react";
 import ToDo from "../ToDo/ToDo.tsx";
 
 function ListToDos() {
@@ -8,6 +7,7 @@ function ListToDos() {
 
     return (
         <>
+
             <ToDo toDoLabel={"udele mycku"}></ToDo>
             <ToDo toDoLabel={"udele mycku"}></ToDo>
             <ToDo toDoLabel={"udele mycku"}></ToDo>

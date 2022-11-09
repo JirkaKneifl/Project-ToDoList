@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
-import "./AboutNavBar.css";
+import "./NavBar.css";
 import HStack from "../HStack.tsx";
+import { FiLogOut, FiSettings } from 'react-icons/fi';
 
 function AboutNavBar(){
     return (
@@ -8,9 +9,9 @@ function AboutNavBar(){
             <div className={"aboutNavBar"}>
                 <HStack alignItems={"baseline"}  gap={"85rem"}>
                     <h2 className={"toDoLogo"}>ToDo App</h2>
-                    <HStack gap={"1rem"} >
-                        <Link className={"aboutNavLink"} to={"/login"}>Login</Link>
-                        <Link className={"aboutNavLink"} to={"/register"}>Register</Link>
+                    <HStack gap={"2rem"} >
+                        <Link className={"navLink"} to={"/settings"}><FiSettings className={"navLinkIcon"}></FiSettings></Link>
+                        <Link className={"navLink"} to={"/logout"}><FiLogOut className={"navLinkIcon"}></FiLogOut></Link>
                     </HStack>
                 </HStack>
             </div>
