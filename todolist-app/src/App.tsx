@@ -1,9 +1,9 @@
 import './App.css';
 import { Route ,Routes} from "react-router-dom";
-import About from "./pages/About";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Main from "./pages/Main"
+import About from "./pages/About/About";
+import Login from "./pages/Login/Login";
+import Register from "./pages/Register/Register";
+import Main from "./pages/Main/Main"
 import Logout from "./pages/Logout";
 
 function App() {

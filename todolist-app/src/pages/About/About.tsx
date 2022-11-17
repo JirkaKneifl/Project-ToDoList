@@ -1,6 +1,7 @@
-import AboutNavBar from "../components/structureComponents/AboutNavBar/AboutNavBar";
-import VStack from "../components/basicComponents/VStack";
-import Text from "../components/basicComponents/Text/Text";
+import AboutNavBar from "../../components/structureComponents/AboutNavBar/AboutNavBar";
+import VStack from "../../components/basicComponents/VStack";
+import Text from "../../components/basicComponents/Text/Text";
+import "./About.css"
 
 
 function About () {

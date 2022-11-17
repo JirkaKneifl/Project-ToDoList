@@ -3,12 +3,13 @@
 // - list tasku
 // - zobrazeni uzivatele -> pripadne button na detail pro uzivatele
 
-import ToDoAdder from "../components/structureComponents/ToDoAdder/ToDoAdder";
-import ListToDos from "../components/structureComponents/ListToDos/ListToDos";
-import NavBar from "../components/structureComponents/NavBar/NavBar";
-import VStack from "../components/basicComponents/VStack";
-import ListOfToDoLists from "../components/structureComponents/ListOfToDoLists/ListOfToDoLists";
-import HStack from "../components/basicComponents/HStack";
+import ToDoAdder from "../../components/structureComponents/ToDoAdder/ToDoAdder";
+import ListToDos from "../../components/structureComponents/ListToDos/ListToDos";
+import NavBar from "../../components/structureComponents/NavBar/NavBar";
+import VStack from "../../components/basicComponents/VStack";
+import ListOfToDoLists from "../../components/structureComponents/ListOfToDoLists/ListOfToDoLists";
+import HStack from "../../components/basicComponents/HStack";
+import "./Main.css"
 
 function Main(){
     return (
