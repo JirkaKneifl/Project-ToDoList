@@ -1,8 +1,0 @@
-function Separator(){
-    return(
-        <>
-
-        </>
-    )
-}
-
